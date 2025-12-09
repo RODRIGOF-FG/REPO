@@ -33,7 +33,7 @@ public class AsignacionController {
     }
 
     // OPERADOR — ver su asignación
-    @GetMapping("/mi-asignacion")
+    @GetMapping("operador/mi-asignacion")
     public ResponseEntity<?> miAsignacion(Authentication auth) {
 
         String email = auth.getName();
