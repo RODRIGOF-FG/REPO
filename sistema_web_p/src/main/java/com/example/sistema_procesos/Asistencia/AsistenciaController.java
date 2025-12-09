@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 public class AsistenciaController {
 
     private final AsistenciaService service;
+    // hola
 
     // ✅ REGISTRAR ASISTENCIA
     @PostMapping
